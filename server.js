@@ -5,7 +5,7 @@ require('dotenv').config();
 const server = express();
 
 server.get('/', () => {
-    res.status(200).send('Your app is up and running');
+    res.status(200).send('Your app is up and running smoothly');
 });
 
 const port = process.env.PORT || 4040
