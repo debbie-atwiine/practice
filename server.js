@@ -1,4 +1,6 @@
 const express = require('express');
+const name = "debbie";
+console.log(name);
 
 // i dont know where this line came from even though it makes sense
 // const res = require('express/lib/response');
