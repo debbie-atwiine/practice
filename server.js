@@ -1,5 +1,7 @@
 const express = require('express');
-const res = require('express/lib/response');
+
+// i dont know where this line came from even though it makes sense
+// const res = require('express/lib/response');
 require('dotenv').config();
 
 const server = express();
